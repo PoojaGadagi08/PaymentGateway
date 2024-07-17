@@ -1,0 +1,60 @@
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .card {
+    width: 300px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .card-header img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-body h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .card-body .price {
+    font-size: 1.2em;
+    color: #ff6b6b;
+    margin: 10px 0;
+  }
+  
+  .card-body .price span {
+    text-decoration: line-through;
+    color: #aaa;
+    margin-left: 10px;
+  }
+  
+  .buy-button {
+    background-color: #1b9cfc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buy-button:hover {
+    background-color: #1a8fd9;
+  }
+  
+  
